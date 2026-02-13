@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="utf-8">
+            <title>Pagina de inscrição de eventos</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+
+        <body>
+        <header>
+                <h1 id="cabecalho">Code Camp 2026</h1>
+                <p>Learn. Build. Innovate.</p>
+        </header>
+
+        <nav>
+            <div id="menu">
+                <a href="index.html">Home</a>
+                <a href="subscribe.html">Inscreva-se</a>
+                <a href="sobre.html">Sobre</a>
+            </div>
+        </nav>
+        <div>
+            <h2 class="titulo">Inscreva-se agora!</h2>
+
+            <div id="formulario">
+                <form>
+                    <div class="campo">
+                        <label>Nome:</label>
+                        <input type="text" name="name" required>
+                    </div>
+
+                    <div class="campo">
+                        <label>E-mail:</label>
+                        <input type="email" name="email" required>
+                    </div>
+
+                    <div class="campo-aulas">
+                        <label>Qual aula ira realizar:</label>
+                            <input type="checkbox" name="frontend" value="frontend">
+                        <label class="nome-aula">Front-End</label>
+                            <input type="checkbox" name="logica" value="logica">
+                        <label class="nome-aula">Logica de Programação</label>
+                            <input type="checkbox" name="sql" value="sql">
+                        <label class="nome-aula">Banco de Dados (SQL)</label>
+                    </div>
+
+                    <label>Escolha o turno:</label>
+                    <select>
+                        <option>Selecione</option>
+                        <option value="manha">Manhã</option>
+                        <option  value="tarde">Tarde</option>
+                        <option value="noite">Noite</option>
+                    </select>
+
+                    <br><br>
+
+                    <input type="checkbox" name="termo">
+                    <label>Concordo com os termos e condições</label>
+
+                <div class="button-container">
+                     <button type="submit">Inscrever-se</button>
+                     <button type="reset">Limpar</button>
+                </div>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <div>
+                <h2>Nos siga nas redes sociais</h2>
+
+                <p></p>
+
+                <table class="icones">
+                    <tr>
+                        <td><img src="https://img.freepik.com/vetores-gratis/novo-design-de-icone-x-do-logotipo-do-twitter-em-2023_1017-45418.jpg?semt=ais_hybrid&w=740&q=80" alt="(Icone Twitter)" width="35px" style="border-radius: 40px; vertical-align:middle"></td>
+                        <td><a href="#" target="_blank" style="font-size:20px;text-decoration:none;">Twitter</a></td>
+                        <td><img src="iconeinsta.png" width="50px" style="vertical-align:middle" alt="Icone Instagram"></td>
+                        <td><a href="#" target="_blank" style="font-size:20px;text-decoration:none;">Instagram</a></td>
+                    </tr>
+                </table>
+            </div>
+        </footer>
+        </body>
+    </html>
